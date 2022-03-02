@@ -1,0 +1,22 @@
+---
+title: "Quiz 6"
+author: ""
+output: github_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+library(tidyverse)
+library(rstanarm)
+options(mc.cores = parallel::detectCores())
+```
+
+Project 2 will involve predictive modeling. This quiz will serve as a proposal for that project. 
+
+#### 1.
+
+Describe a dataset and detail what variable you plan to predict.
+
+#### 2.
+
+Choose a loss function to evaluate your predictions.
